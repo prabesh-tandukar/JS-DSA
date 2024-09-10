@@ -1,24 +1,19 @@
 # Traversy JS Challenges: Data Structures & Algorithms
 
-This is the sandbox for my [70+ JS Challenges: Data Structures & Algorithms Course](https://www.traversymedia.com/javascript-challeges). Just about all of the concepts that are included, also exist in other languages. So, if you are not a JavaScript developer, you can still follow along and learn from this course/repo.
+My take on TRAVERSY JS DSA Course.
+✅ On done challenges.
 
-This course/repo goes over everything from basic loop challenges, high order array methods, recursion, time & space complexity, data structures such as stacks, queues, linked lists, trees, graphs, and we touch on sorting algorithms like bubble sort, insertion and merge sort. You should already know the basics of JavaScript before doing any of the challenges or taking the course.
-
-Please do not make any PRs to this repo as it goes along with a specific course. I may open another one for student solutions and new challenges.
 
 ## File Structure
 
 Each folder includes:
 
 - `readme.md` - The challenge/code instructions. This also includes hints, tests and a dropdown with the solution code as well as the explanation of the solution code.
-- `[name].js` - This is your working file. It has the name of the function and the function is exported. No parameters are passed to the function. That is up to you to add.
+- `[name].js` - This is your working file. It has the name of the function and the function is exported. No parameters are passed to the function. That is up to you to add. [My Solution Here]
 - `[name]-run.js` - File to run the code manually. The function is already imported and called with expected parameters.
 - `[name]-solution.js` The solution code with heavy commenting. Some challenges have multiple solutions. If you want the solution without comments, look in the `readme.md` file.
 - `[name]-test.js` - Jest tests for the solution code. You will need to rename this file to `[name].test.js` to run the tests.
 
-## Learning Modules/Lessons
-
-Some lessons/modules are not challenges, they are more like mini-lessons. I don't just throw you a challenge using a new concept (Trees, Stacks, Bubble Sorts, etc) without explaining it first. I try to explain the concept and then give you a challenge to practice or implement it. So some folders will not have a challenge, just a readme file.
 
 ## Running Tests
 
@@ -26,11 +21,7 @@ In order for the Jest tests to run, you need to rename the test file to `[name].
 
 Run the command `npm run test` from the root directory and it will run all the tests.
 
-## These Don't Have to be "Challenges"
 
-Some people, such as myself are not great at doing this stuff off the top of their head. Even though most of the code is setup as a challenge, you can certainly just follow along with the course and/or just study the solutions and learn from them.
-
-You can use the tests to see if your code passes, but use the `run` files to run the code manually. This is so that you can experiment, console.log, etc.
 
 ## Getting Started
 
@@ -44,13 +35,13 @@ You can use the tests to see if your code passes, but use the `run` files to run
 
 These are mostly challenges that have to do with loops, conditionals, and string manipulation. I do not go over fundamentals like "what is a for loop". You should already know the basics of JavaScript.
 
-1. [Hello World Test Challenge](./01-basic-challenges-1/01-hello-world/readme.md) :white_check_mark:
-2. [Get Sum Test Challenge](./01-basic-challenges-1/02-get-sum/readme.md)
-3. [Calculator](./01-basic-challenges-1/03-calculator/readme.md)
-4. [Count Occurrences](./01-basic-challenges-1/04-count-occurrences/readme.md)
-5. [Find Max Number](./01-basic-challenges-1/05-find-max-number/readme.md)
-6. [Title Case](./01-basic-challenges-1/06-title-case/readme.md)
-7. [Reverse String](./01-basic-challenges-1/07-reverse-string/readme.md)
+1. [Hello World Test Challenge](./01-basic-challenges-1/01-hello-world/readme.md) ✅
+2. [Get Sum Test Challenge](./01-basic-challenges-1/02-get-sum/readme.md) ✅
+3. [Calculator](./01-basic-challenges-1/03-calculator/readme.md) ✅
+4. [Count Occurrences](./01-basic-challenges-1/04-count-occurrences/readme.md) ✅
+5. [Find Max Number](./01-basic-challenges-1/05-find-max-number/readme.md) ✅
+6. [Title Case](./01-basic-challenges-1/06-title-case/readme.md) ✅
+7. [Reverse String](./01-basic-challenges-1/07-reverse-string/readme.md) ✅
 8. [Palindrome](./01-basic-challenges-1/08-palindrome/readme.md)
 9. [Count Vowels](./01-basic-challenges-1/09-count-vowels/readme.md)
 10. [Remove Duplicates](./01-basic-challenges-1/10-remove-duplicates/readme.md)
